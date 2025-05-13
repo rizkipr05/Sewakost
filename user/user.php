@@ -87,8 +87,8 @@ if (!is_user()) {
         </div>
     </section>
 
-    <!-- Carousel -->
-    <section class="bg-light py-5">
+<!-- Carousel -->
+<section class="bg-light py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
@@ -105,28 +105,28 @@ if (!is_user()) {
                         </div>
                         <div class="carousel-inner rounded">
                             <div class="carousel-item active">
-                                <img src="/api/placeholder/800/500" class="d-block w-100" alt="Kamar Tipe Premium">
+                                <img src="asset/img/KasurLemari.jpg" class="d-block w-100" alt="Kamar Tipe Premium">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Kamar Tipe Premium</h5>
                                     <p>Kamar luas dengan kamar mandi dalam dan balkon pribadi</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="/api/placeholder/800/500" class="d-block w-100" alt="Ruang Komunal">
+                                <img src="asset/img/bg.jpg" class="d-block w-100" alt="Ruang Komunal">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Ruang Komunal</h5>
                                     <p>Area bersantai dan bersosialisasi dengan sesama penghuni</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="/api/placeholder/800/500" class="d-block w-100" alt="Dapur Bersama">
+                                <img src="asset/img/dapur.jpg" class="d-block w-100" alt="Dapur Bersama">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Dapur Bersama</h5>
                                     <p>Fasilitas memasak lengkap untuk kebutuhan sehari-hari</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="/api/placeholder/800/500" class="d-block w-100" alt="Area Parkir">
+                                <img src="asset/img/parkir.jpg" class="d-block w-100" alt="Area Parkir">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Area Parkir</h5>
                                     <p>Parkir yang luas dan aman untuk kendaraan Anda</p>
@@ -146,6 +146,7 @@ if (!is_user()) {
             </div>
         </div>
     </section>
+
 
     <!-- Daftar Kamar -->
     <section id="kamar" class="py-5">
@@ -217,39 +218,60 @@ if (!is_user()) {
         </div>
     </section>
 
-    <!-- Tentang Kami -->
-    <section id="tentang" class="py-5 bg-light">
+   <!-- Carousel -->
+    <section class="bg-light py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="/api/placeholder/600/400" alt="Tentang KostKuIbu" class="img-fluid rounded">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>Galeri Kost Putri Rajabasa</h2>
+                    <p class="lead">Lihat suasana kost yang nyaman dan penuh kehangatan</p>
                 </div>
-                <div class="col-lg-6">
-                    <h2>Tentang Kost Putri Rajabasa</h2>
-                    <p class="lead">Tempat tinggal nyaman dengan suasana seperti di rumah</p>
-                    <p>Kost Putri Rajabasa didirikan pada tahun 2010 dengan tujuan menyediakan tempat tinggal yang nyaman, aman, dan terjangkau bagi mahasiswa dan pekerja di kota ini. Kami berkomitmen untuk memberikan pelayanan terbaik dan menciptakan lingkungan yang kondusif bagi penghuni.</p>
-                    <p>Dengan pengalaman lebih dari 15 tahun, KostKuIbu telah menjadi pilihan utama bagi mereka yang mencari tempat tinggal dengan suasana kekeluargaan. Lokasi yang strategis, fasilitas lengkap, dan pelayanan ramah menjadi keunggulan kami.</p>
-                    <div class="row mt-4">
-                        <div class="col-6">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2" style="font-size: 1.5rem;"></i>
-                                <div>Lokasi Strategis</div>
+                <div class="col-lg-10 mx-auto">
+                    <div id="kostCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="asset/img/KasurLemari.jpg" class="d-block w-100" alt="Kamar Tipe Premium">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Kamar Tipe Premium</h5>
+                                    <p>Kamar luas dengan kamar mandi dalam dan balkon pribadi</p>
+                                </div>
                             </div>
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2" style="font-size: 1.5rem;"></i>
-                                <div>Harga Terjangkau</div>
+                            <div class="carousel-item">
+                                <img src="asset/img/bg.jpg" class="d-block w-100" alt="Ruang Komunal">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Ruang Komunal</h5>
+                                    <p>Area bersantai dan bersosialisasi dengan sesama penghuni</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="asset/img/dapur.jpg" class="d-block w-100" alt="Dapur Bersama">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Dapur Bersama</h5>
+                                    <p>Fasilitas memasak lengkap untuk kebutuhan sehari-hari</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="asset/img/parkir.jpg" class="d-block w-100" alt="Area Parkir">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Area Parkir</h5>
+                                    <p>Parkir yang luas dan aman untuk kendaraan Anda</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2" style="font-size: 1.5rem;"></i>
-                                <div>Keamanan 24 Jam</div>
-                            </div>
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2" style="font-size: 1.5rem;"></i>
-                                <div>Wi-Fi Cepat</div>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#kostCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#kostCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
