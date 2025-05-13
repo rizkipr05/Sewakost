@@ -23,7 +23,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#beranda">Beranda</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item">w
                         <a class="nav-link" href="#kamar">Kamar</a>
                     </li>
                     <li class="nav-item">
