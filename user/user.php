@@ -25,7 +25,7 @@ if (!is_user()) {
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">git init
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="#kamar">Kamar</a></li>
@@ -406,15 +406,6 @@ if (!is_user()) {
                         <div class="mb-3">
                             <label for="phone" class="form-label">No. Telepon/WA</label>
                             <input type="tel" class="form-control" id="phone" placeholder="Masukkan nomor telepon/WA">
-                        </div>
-                        <div class="mb-3">
-                            <label for="roomType" class="form-label">Tipe Kamar</label>
-                            <select class="form-select" id="roomType">
-                                <option selected>Pilih tipe kamar</option>
-                                <option value="typeA">Tipe A - Ekonomis</option>
-                                <option value="typeB">Tipe B - Standard</option>
-                                <option value="typeC">Tipe C - Premium</option>
-                            </select>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Pesan</label>

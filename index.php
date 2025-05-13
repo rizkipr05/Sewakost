@@ -414,15 +414,6 @@
                             <input type="tel" class="form-control" id="phone" placeholder="Masukkan nomor telepon/WA">
                         </div>
                         <div class="mb-3">
-                            <label for="roomType" class="form-label">Tipe Kamar</label>
-                            <select class="form-select" id="roomType">
-                                <option selected>Pilih tipe kamar</option>
-                                <option value="typeA">Tipe A - Ekonomis</option>
-                                <option value="typeB">Tipe B - Standard</option>
-                                <option value="typeC">Tipe C - Premium</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
                             <label for="message" class="form-label">Pesan</label>
                             <textarea class="form-control" id="message" rows="4" placeholder="Masukkan pesan/pertanyaan Anda"></textarea>
                         </div>
