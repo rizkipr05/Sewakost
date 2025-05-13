@@ -86,7 +86,7 @@ if (!is_user()) {
             </div>
         </div>
     </section>
-    
+
  <!-- Carousel -->
  <section class="bg-light py-5">
         <div class="container">
@@ -105,28 +105,28 @@ if (!is_user()) {
                         </div>
                         <div class="carousel-inner rounded">
                             <div class="carousel-item active">
-                                <img src="asset/img/KasurLemari.jpg" class="d-block w-100" alt="Kamar Tipe Premium">
+                                <img src="../asset/img/KasurLemari.jpg" class="d-block w-100" alt="Kamar Tipe Premium">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Kamar Tipe Premium</h5>
                                     <p>Kamar luas dengan kamar mandi dalam dan balkon pribadi</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="asset/img/bg.jpg" class="d-block w-100" alt="Ruang Komunal">
+                                <img src="../asset/img/bg.jpg" class="d-block w-100" alt="Ruang Komunal">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Ruang Komunal</h5>
                                     <p>Area bersantai dan bersosialisasi dengan sesama penghuni</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="asset/img/dapur.jpg" class="d-block w-100" alt="Dapur Bersama">
+                                <img src="../asset/img/dapur.jpg" class="d-block w-100" alt="Dapur Bersama">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Dapur Bersama</h5>
                                     <p>Fasilitas memasak lengkap untuk kebutuhan sehari-hari</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="asset/img/parkir.jpg" class="d-block w-100" alt="Area Parkir">
+                                <img src="../asset/img/parkir.jpg" class="d-block w-100" alt="Area Parkir">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Area Parkir</h5>
                                     <p>Parkir yang luas dan aman untuk kendaraan Anda</p>
@@ -216,67 +216,7 @@ if (!is_user()) {
                 </div>
             </div>
         </div>
-    </section>
-
-   <!-- Carousel -->
-    <section class="bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-4">
-                    <h2>Galeri Kost Putri Rajabasa</h2>
-                    <p class="lead">Lihat suasana kost yang nyaman dan penuh kehangatan</p>
-                </div>
-                <div class="col-lg-10 mx-auto">
-                    <div id="kostCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="2"></button>
-                            <button type="button" data-bs-target="#kostCarousel" data-bs-slide-to="3"></button>
-                        </div>
-                        <div class="carousel-inner rounded">
-                            <div class="carousel-item active">
-                                <img src="asset/img/KasurLemari.jpg" class="d-block w-100" alt="Kamar Tipe Premium">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Kamar Tipe Premium</h5>
-                                    <p>Kamar luas dengan kamar mandi dalam dan balkon pribadi</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="asset/img/bg.jpg" class="d-block w-100" alt="Ruang Komunal">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Ruang Komunal</h5>
-                                    <p>Area bersantai dan bersosialisasi dengan sesama penghuni</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="asset/img/dapur.jpg" class="d-block w-100" alt="Dapur Bersama">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Dapur Bersama</h5>
-                                    <p>Fasilitas memasak lengkap untuk kebutuhan sehari-hari</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="asset/img/parkir.jpg" class="d-block w-100" alt="Area Parkir">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Area Parkir</h5>
-                                    <p>Parkir yang luas dan aman untuk kendaraan Anda</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#kostCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#kostCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </section>   
 
     <!-- Fasilitas -->
     <section id="fasilitas" class="py-5">
