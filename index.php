@@ -36,7 +36,7 @@
                         <a class="nav-link" href="#kontak">Kontak</a>
                     </li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-outline-primary" href="login.php">Masuk</a>
+                        <a class="btn btn-outline-primary" href="login.php">masuk</a>
                     </li>
                     <li class="nav-item ms-lg-2">
                         <a class="btn btn-primary" href="register.php">Daftar</a>
