@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#kamar">Kamar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tentang">Tentang Kami</a>
+                        <a class="nav-link" href="#tentang">Tentang</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#fasilitas">Fasilitas</a>
