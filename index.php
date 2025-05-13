@@ -328,7 +328,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4">d
                     <div class="testimonial-item">
                         <div class="d-flex align-items-center mb-3">
                             <img src="/api/placeholder/80/80" alt="Penghuni 1" class="testimonial-img me-3">
