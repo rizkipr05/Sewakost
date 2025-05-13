@@ -18,6 +18,7 @@ if (!is_user()) {
     <link rel="stylesheet" href="../style.css"> 
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
@@ -25,7 +26,7 @@ if (!is_user()) {
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">git init
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="#kamar">Kamar</a></li>
@@ -39,7 +40,6 @@ if (!is_user()) {
         </div>
     </nav>
 
-    
     <!-- Hero Section -->
     <section class="hero" id="beranda">
         <div class="container">
@@ -87,8 +87,8 @@ if (!is_user()) {
         </div>
     </section>
 
-   <!-- Carousel -->
-    <section class="bg-light py-5">
+     <!-- Carousel -->
+     <section class="bg-light py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
@@ -468,11 +468,9 @@ if (!is_user()) {
                                     <p class="mb-0">Senin - Minggu: 08.00 - 21.00 WIB</p>
                                 </div>
                             </div>
-                            <div class="ratio ratio-16x9">
-                                <img src="/api/placeholder/600/400" class="rounded" alt="Lokasi KostKuIbu">
-                                <div class="bg-light d-flex align-items-center justify-content-center">
-                                    <p class="mb-0">Peta Google Maps akan ditampilkan di sini</p>
-                                </div>
+                            <div class="ratio ratio-16x9 rounded">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.3930589731244!2d105.2260159!3d-5.356842899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c58ea2aeeeb3%3A0x4bac5dac4cc157e4!2sWrg.Khayuki!5e0!3m2!1sen!2sid!4v1746009189530!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           </div>
                             </div>
                         </div>
                     </div>
