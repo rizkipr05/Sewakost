@@ -51,7 +51,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../asset/img/bg.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../asset/img/lantaisatu.jpg') center/cover no-repeat;
     color: white;
     padding: 7rem 0;
     text-align: center;
