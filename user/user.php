@@ -86,9 +86,9 @@ if (!is_user()) {
             </div>
         </div>
     </section>
-
-     <!-- Carousel -->
-     <section class="bg-light py-5">
+    
+ <!-- Carousel -->
+ <section class="bg-light py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
